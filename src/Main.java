@@ -1,13 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-        int Personal = 230;
-        int Replenishment = 1500;
-        boolean add_bonus = Replenishment > 1000;
+        int personal = 230;
+        int replenishment = 1500;
+        boolean add_bonus = replenishment > 1000;
         if (add_bonus) {
-            System.out.println("Текущих средств: " + (Personal + Replenishment + Replenishment / 100) +
-                    "; Бонусных рублей зачислено: " + (Replenishment / 100));
+            System.out.println("Текущих средств: " + (personal + replenishment + replenishment / 100) +
+                    "; Бонусных рублей зачислено: " + (replenishment / 100));
         } else {
-            System.out.println("Текущих средств: " + (Personal + Replenishment));
+            System.out.println("Текущих средств: " + (personal + replenishment));
         }
         // Объявляете переменные для входных данных и
         // параметров программы: начального счёта,
