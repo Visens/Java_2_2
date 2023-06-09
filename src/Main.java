@@ -2,8 +2,8 @@ public class Main {
     public static void main(String[] args) {
         int personal = 230;
         int replenishment = 1500;
-        boolean add_bonus = replenishment > 1000;
-        if (add_bonus) {
+        boolean addBonus = replenishment > 1000;
+        if (addBonus) {
             System.out.println("Текущих средств: " + (personal + replenishment + replenishment / 100) +
                     "; Бонусных рублей зачислено: " + (replenishment / 100));
         } else {
